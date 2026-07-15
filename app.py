@@ -5,7 +5,7 @@ import pickle
 from math import radians, sin, cos, sqrt, atan2
 import gdown
 
-ur = "https://drive.google.com/drive/folders/1zKT0n8cTx9x9w6Z_LVxam303pDNpoLMy?usp=sharing"
+ur1 = "https://drive.google.com/drive/folders/1zKT0n8cTx9x9w6Z_LVxam303pDNpoLMy?usp=sharing"
 
 gdown.download(ur1, "best_model.pkl", quiet=False)
 
